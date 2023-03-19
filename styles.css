@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+
+.holder{
+	display: flex;
+	border:2px solid red;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+	gap:5px;
+}
+p{
+	background: green;
+}
+.item-1{
+	align-self:center;
+}
